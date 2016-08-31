@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Background_1280x720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background_800x600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Background 800x600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="High_On_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Audio\High On Hover.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Low_On_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Audio\Low On Hover.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\oven.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oven_Alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Audio\Oven Alarm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oven_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\oven on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oven_on_smoking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\oven on smoking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INSTRUCTION_1" xml:space="preserve">
+    <value>Butter the Cake Tin.</value>
+  </data>
+  <data name="INSTRUCTION_11" xml:space="preserve">
+    <value>Cut cake into three horizontal slices.</value>
+  </data>
+  <data name="INSTRUCTION_12" xml:space="preserve">
+    <value>Chop 200g chocolate into a bowl, pour 300ml Double Cream on top. Heat in oven until melted.</value>
+  </data>
+  <data name="INSTRUCTION_13" xml:space="preserve">
+    <value>Layer the cakes with covering, pour rest on top of the cake.</value>
+  </data>
+  <data name="INSTRUCTION_2" xml:space="preserve">
+    <value>Break 200g chocolate into a Melting Bowl.</value>
+  </data>
+  <data name="INSTRUCTION_3" xml:space="preserve">
+    <value>Cut 200g butter into pieces, place in Melting Bowl.</value>
+  </data>
+  <data name="INSTRUCTION_4" xml:space="preserve">
+    <value>Add tablespoon of Instant Coffee into 125ml cold water, place in Melting Bowl.</value>
+  </data>
+  <data name="INSTRUCTION_5" xml:space="preserve">
+    <value>Heat until melted in the Oven</value>
+  </data>
+  <data name="INSTRUCTION_6" xml:space="preserve">
+    <value>Mix 170g of flour, 1/4 bicarbonate of soda, 300g sugar and 25g cocoa powder in Mixing Bowl.</value>
+  </data>
+  <data name="INSTRUCTION_7" xml:space="preserve">
+    <value>Break 3 Medium Eggs in a bowl, pour in 75ml Buttermilk.</value>
+  </data>
+  <data name="INSTRUCTION_8" xml:space="preserve">
+    <value>Pour melted chocolate into Mixing Bowl</value>
+  </data>
+  <data name="INSTRUCTION_10" xml:space="preserve">
+    <value>Pour Melting Bowl into Cake Tin, bake for 90 Minutes on 140C.</value>
+  </data>
+  <data name="NO_INTERACTION" xml:space="preserve">
+    <value>There's no interaction between these two items</value>
+  </data>
+  <data name="ButteredCaketin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ButteredCaketin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmptyCaketin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\EmptyCaketin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Butter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CakeTinFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CakeTinFull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chocolate_bar_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\chocolate_bar_full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chocolate_bar_half" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\chocolate_bar_half.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Marker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oven_off_with_cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\oven off with cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oven_on_with_cake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\oven on with cake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Butter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Chocolate_Butter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Chocolate Butter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InstantCoffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\InstantCoffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WaterJugEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\WaterJugEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bicarbonate_Of_Soda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Bicarbonate Of Soda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANT_UNBIND" xml:space="preserve">
+    <value>You must use this item now.</value>
+  </data>
+  <data name="CANT_USE_ITSELF" xml:space="preserve">
+    <value>You can't use this item on its self. Make sure you are clicking the correct object.</value>
+  </data>
+  <data name="Cocoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Cocoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cup_Flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Cup Flower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Flour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Flower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Flower_Cocoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Flower Cocoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Mixed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Mixed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Mixed_Melted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Mixed Melted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOT_READY" xml:space="preserve">
+    <value>These items aren't ready to be mixed.</value>
+  </data>
+  <data name="Scales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Scales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WaterJugFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\WaterJugFull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WaterJugFullCoffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\WaterJugFullCoffee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eggbox_One" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Eggbox One.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eggbox_Three" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Eggbox Three.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eggbox_Two" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Eggbox Two.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Flower_Cocoa_Eggs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Flower Cocoa Eggs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Flower_Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Flower Egg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INSTRUCTION_9" xml:space="preserve">
+    <value>Mix until smooth</value>
+  </data>
+  <data name="Buttermilk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Buttermilk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sugar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Sugar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoolingRack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CoolingRack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoolingRackChocolated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CoolingRackChocolated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DoubleCream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DoubleCream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glass_Mixing_Bowl_Cream_Chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Glass Mixing Bowl Cream Chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Knife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Knife.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Whisk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OvenOnSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Audio\OvenOnSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplashBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\SplashBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
